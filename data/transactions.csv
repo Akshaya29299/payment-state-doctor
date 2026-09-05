@@ -1,0 +1,10 @@
+
+transaction_id,order_id,amount,order_status,payment_status,webhook_status,webhook_delay_seconds,scenario
+TXN001,ORD001,4999,FAILED,SUCCESS,RECEIVED,31,Delayed Webhook
+TXN002,ORD002,2499,PAID,SUCCESS,RECEIVED,5,Healthy Transaction
+TXN003,ORD003,7999,PAID,SUCCESS,DUPLICATE,0,Duplicate Webhook
+TXN004,ORD004,1599,FAILED,SUCCESS,RECEIVED,42,Payment Timeout
+TXN005,ORD005,12999,PAID,SUCCESS,RECEIVED,2,Duplicate Payment
+TXN006,ORD006,3499,PAID,REFUNDED,RECEIVED,3,Refund State Mismatch
+TXN007,ORD007,8999,FAILED,FAILED,NONE,0,Insufficient Evidence
+
